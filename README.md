@@ -11,7 +11,7 @@ This repository _is not_ the original repository for this tool. Here are some li
 
 In this repository, for ConceptCloud you will find:
 * :x: Source code (not available)
-* :white_check_mark: [The original tool] (available)
+* :white_check_mark: The original tool (available)
 
 ### Instructions for running the ConceptCloud tool
 
@@ -19,5 +19,5 @@ The executable version of ConceptCloud is self contained and will only require a
 
 ### Acknowledgements
 
-This repository was constructed by [Gauri Naik] under the supervision of [Emerson Murphy-Hill](https://github.com/CaptainEmerson). A special thanks to the owners of the tool, Gillian J. Greene and Bernd Fischer for their help in establishing this repository. 
+This repository was constructed by [Gauri Naik](https://github.com/gauri145) under the supervision of [Emerson Murphy-Hill](https://github.com/CaptainEmerson). A special thanks to the owners of the tool, Gillian J. Greene and Bernd Fischer for their help in establishing this repository. 
 
