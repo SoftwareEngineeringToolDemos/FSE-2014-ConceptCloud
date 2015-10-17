@@ -8,7 +8,8 @@ This repository contains information related to the tool ConceptCloud presented 
 
 This repository _is not_ the original repository for this tool. Here are some links to the original project:
 * [The Official Project Page including the browser executable](http://www.conceptcloud.org)
-*  [Original Download Link](http://www.conceptcloud.org/download)
+* [Original Download Link](http://www.conceptcloud.org/download)
+* [A Video of the Tool](https://www.youtube.com/watch?v=hLhW5nI_PSo) 
 
 In this repository, for ConceptCloud you will find:
 * :x: Source code (not available)
