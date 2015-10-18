@@ -14,7 +14,7 @@ This repository _is not_ the original repository for this tool. Here are some li
 
 In this repository, for ConceptCloud you will find:
 * :x: Source code (not available)
-* :white_check_mark: The original tool (available)
+* :white_check_mark: [The original tool](http://www.conceptcloud.org/download) (available)
 
 ### Instructions for running the ConceptCloud tool
 
