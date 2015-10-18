@@ -18,7 +18,7 @@ In this repository, for ConceptCloud you will find:
 
 ### Instructions for running the ConceptCloud tool
 
-The executable version of ConceptCloud is self contained and will only require a JDK in order to run, and a web browser (preferably Google Chrome). ConceptCloud is built using the Play Framework and the Java Heap Space can be configured by typing, for example, "export _JAVA_OPTIONS="-Xms800m -Xmx1500m"  before running the shell script that starts the server. It will be necessary to increase the heap space when analysing large repositories. 
+The executable version of ConceptCloud is self contained and will only require a JDK in order to run, and a web browser (preferably Google Chrome). ConceptCloud is built using the Play Framework and the Java Heap Space can be configured by typing, for example, export _JAVA_OPTIONS="-Xms800m -Xmx1500m"  before running the shell script that starts the server. It will be necessary to increase the heap space when analysing large repositories. 
 
 ### Acknowledgements
 
