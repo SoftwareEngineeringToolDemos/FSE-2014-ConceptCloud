@@ -33,14 +33,14 @@ b. Open terminal on your Desktop. Open the folder in which the Vagrantfile is pl
 vagrant ssh 
 ```
 
-## Note
+### Note
 * It may take several minutes for downloading and configuring the VM. Please wait till 'vagrant up' finishes execution before using the GUI of the VM 
 * Login is not required. 
 However, if the VM gets locked while the VM is loading then the following credentials must be used
 username: vagrant
 password: vagrant
 
-## Verification
+### Verification
 Open terminal in virtual box GUI
 Run the following command:
 ```
@@ -48,10 +48,10 @@ java -version
 ```
 Verify that JDK 8 has been successfully installed
 
-## Author
+### Author
 The build-vm folder was created by Gauri Naik
 
-## Reference
+### Reference
 * https://atlas.hashicorp.com/box-cutter/boxes/ubuntu1404-desktop
 * https://docs.vagrantup.com/v2/getting-started/up.html
 * https://www.vagrantup.com/
