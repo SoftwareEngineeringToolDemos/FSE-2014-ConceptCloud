@@ -6,9 +6,9 @@ This is the script and the configuration file which creates the VM containing th
 containing one piece of software that's a prerequisite for ConceptCloud tool which is JDK 8
 
 ### Environment
-VM: Ubuntu 14.04 64 bit box with guest additions (Same as the previous hand made VM)
-Script: Vagrantfile
-Virtual Box used: box-cutter/ubuntu1404-desktop
+* VM: Ubuntu 14.04 64 bit box with guest additions (Same as the previous hand made VM)
+* Script: Vagrantfile
+* Virtual Box used: box-cutter/ubuntu1404-desktop
 
 ### How to create and spin up the VM using scripts
 * Download vagrant from this website https://www.vagrantup.com/
@@ -40,12 +40,12 @@ username: vagrant
 password: vagrant
 
 ### Verification
-Open terminal in virtual box GUI
-Run the following command:
+* Open terminal in virtual box GUI
+* Run the following command:
 ```
 java -version
 ```
-Verify that JDK 8 has been successfully installed
+* Verify that JDK 8 has been successfully installed
 
 ### Author
 The build-vm folder was created by Gauri Naik
