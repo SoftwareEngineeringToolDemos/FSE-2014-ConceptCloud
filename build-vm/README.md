@@ -26,8 +26,8 @@ vagrant up
 
 ### Login to the VM 
 There are two ways to login to the virtual machine
-a. Use the GUI provided by the VirtualBox
-b. Open terminal on your Desktop. Open the folder in which the Vagrantfile is placed and run the following command:
+* Use the GUI provided by the VirtualBox
+* Open the terminal on your local machine. Open the folder in which the Vagrantfile is placed and run the following command:
 ```
 vagrant ssh 
 ```
