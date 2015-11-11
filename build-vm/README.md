@@ -1,9 +1,9 @@
 ### Folder Content
 This build-vm folder contains the following things:
 * README.md file
-* Vagrantfile 
-This is the script and the configuration file which creates the VM containing the OS: Ubuntu 14.04 and
-containing one piece of software that's a prerequisite for ConceptCloud tool: JDK 8
+* Vagrantfile. 
+This is the script and the configuration file which creates the VM containing the OS which is Ubuntu 14.04 and
+containing one piece of software that's a prerequisite for ConceptCloud tool which is JDK 8
 
 ### Environment
 VM: Ubuntu 14.04 64 bit box with guest additions (Same as the previous hand made VM)
