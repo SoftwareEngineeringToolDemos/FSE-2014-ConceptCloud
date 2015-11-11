@@ -22,7 +22,7 @@ containing one piece of software that's a prerequisite for ConceptCloud tool whi
 ```
 vagrant up
 ```
-* This will create a new Ubuntu 14.04LTS virtual machine and install JDK 8 in it
+* This will create a new Ubuntu 14.04LTS virtual machine with JDK 8 installed in it
 
 ### Login to the VM 
 There are two ways to login to the virtual machine
