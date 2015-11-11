@@ -54,5 +54,6 @@ The build-vm folder was created by Gauri Naik
 ## Reference
 * https://atlas.hashicorp.com/box-cutter/boxes/ubuntu1404-desktop
 * https://docs.vagrantup.com/v2/getting-started/up.html
-
+* https://www.vagrantup.com/
+* https://www.virtualbox.org/wiki/Downloads
 
