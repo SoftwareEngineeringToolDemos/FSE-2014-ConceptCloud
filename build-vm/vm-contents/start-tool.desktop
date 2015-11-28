@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=/home/vagrant/scripts/start-tool.sh
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name=Start conceptcloud tool
+Name[en_US]=Start conceptcloud tool
+Comment=Start conceptcloud tool
+Comment[en_US]=Start conceptcloud tool
