@@ -1,0 +1,38 @@
+To install the tool conceptcloud on a new machine, perform the following steps:
+
+1) First, do an update on the machine:
+sudo apt-get update
+
+2) Install JDK on the Ubuntu machine using the following steps: 
+sudo apt-get install python-software-properties
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
+
+sudo apt-get install oracle-java8-installer
+
+2) Download the executable of conceptcloud tool from the following website:
+
+http://www.conceptcloud.org/ 
+
+3) Then extract the conceptcloud.tgz folder on Desktop. 
+
+4) The extracted folder is named conceptcloud-2
+
+5) In the terminal type:
+cd Desktop/conceptcloud-2/bin 
+
+6) Then to run the bash script, type: 
+./conceptcloud
+
+Or to run it directly by double clicking, perform the following steps:
+In File Explorer, Go to File->Edit and enable ‘Ask always’ for running executable files
+
+Then right click on conceptcloud and select Execute.
+
+7) Open Google Chrome browser and type the following url:
+http://localhost:9000
+
+8) The tool is now visible and ready to use.
+
+Reference:
+www.conceptcloud.org

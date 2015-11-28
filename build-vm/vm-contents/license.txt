@@ -1,0 +1,21 @@
+********************
+Licenses for this VM
+********************
+
+1. Oracle Virtual Box
+The VirtualBox Open Source Edition is free software, licensed under  GNU General Public License version 2 (GPLv2).
+The full text of the license is available here: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+
+2. Oracle JDK 8
+Oracle JDK 8 is under Oracle Binary Code License.
+The full text of the license is available here: http://www.oracle.com/technetwork/java/javase/terms/license/index.html
+The links to third party licenses are available here: http://www.oracle.com/technetwork/java/javase/terms/thirdpartyreadme/java-license-366168.html
+
+3. ConceptCloud
+The authors have made the conceptcloud tool available on www.conceptcloud.org
+The link to download the browser executable is http://www.conceptcloud.org/download
+The authors have not made the source code of the tool available. 
+Please contact the authors for seeking permission or license:
+Authors: Gillian J. Greene, Bernd Fischer
+Link to research paper: http://dl.acm.org/citation.cfm?id=2661676
+
