@@ -42,9 +42,6 @@ However, if the VM gets locked while the VM is loading then the following creden
 * username: vagrant
 * password: vagrant
 
-### Author
-The build-vm folder was created by Gauri Naik
-
 ### Reference
 * https://atlas.hashicorp.com/box-cutter/boxes/ubuntu1404-desktop
 * https://docs.vagrantup.com/v2/getting-started/up.html
