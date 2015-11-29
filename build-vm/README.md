@@ -28,7 +28,7 @@ vagrant up
 * This will create a new Ubuntu 14.04LTS virtual machine with all the pre-requisites provisioned.
 * The GUI of the machine will be ready to use.
 * The Google Chrome browser will open.
-* If prompted to make it the default browser then click 'Yes'.
+* If prompted to make it the default browser then click 'OK'.
 * The tool is ready to use in the browser.
 
 ### Login to the VM 
