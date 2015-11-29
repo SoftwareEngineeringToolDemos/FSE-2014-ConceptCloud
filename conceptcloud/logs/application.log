@@ -10,3 +10,9 @@ Application started (Prod)
 2015-08-31 18:24:07,348 - [INFO] - from play in main 
 Listening for HTTP on /0:0:0:0:0:0:0:0:9000
 
+2015-11-28 17:26:18,508 - [INFO] - from play in main 
+Application started (Prod)
+
+2015-11-28 17:26:18,999 - [INFO] - from play in main 
+Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+

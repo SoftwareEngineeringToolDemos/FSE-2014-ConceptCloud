@@ -13,45 +13,50 @@ Vagrant.configure(2) do |config|
 end
    
  config.vm.provision "shell", inline: <<-SHELL
-     sudo apt-get -y -q update
-     sudo add-apt-repository -y ppa:webupd8team/java
-     sudo apt-get -y -q update
-     echo "oracle-java8-installer shared/accepted-oracle-license-v1-1 select true" | sudo /usr/bin/debconf-set-selections
-     sudo apt-get -y -q install oracle-java8-installer
+      sudo apt-get -y -q update
+      sudo add-apt-repository -y ppa:webupd8team/java
+      sudo apt-get -y -q update
+      echo "oracle-java8-installer shared/accepted-oracle-license-v1-1 select true" | sudo /usr/bin/debconf-set-selections
+      sudo apt-get -y -q install oracle-java8-installer
+     export _JAVA_OPTIONS="-Xms800m -Xmx1500m"
      sudo apt-get -y install git
-     cd Desktop
+     cd /home/vagrant/Desktop
      sudo git clone https://github.com/SoftwareEngineeringToolDemos/FSE-2014-ConceptCloud.git
-     sudo chown vagrant:vagrant -R FSE-2014-ConceptCloud
-     cd FSE-2014-ConceptCloud
-     rm README.md
-     cp conceptcloud /home/vagrant/Desktop/conceptcloud
-     cp build-vm /home/vagrant/Desktop/build-vm
-     rm -rf /home/vagrant/Desktop/FSE-2014-ConceptCloud 
+     cd /home/vagrant/Desktop/FSE-2014-ConceptCloud
+     sudo rm README.md
+     sudo cp -r conceptcloud/ /home/vagrant/Desktop/conceptcloud/
+     sudo cp -r build-vm/ /home/vagrant/Desktop/build-vm/
+     sudo rm -rf /home/vagrant/Desktop/FSE-2014-ConceptCloud 
      cd /home/vagrant/Desktop/build-vm
-     rm README.md
-     rm Vagrantfile
-     cd vm-contents
+     sudo rm README.md
+     sudo rm Vagrantfile
+     cd /home/vagrant/Desktop/build-vm/vm-contents
       
      # Disable screen lock
      sudo mkdir "/home/vagrant/scripts"
      sudo cp start-tool.sh /home/vagrant/scripts/start-tool.sh
      sudo cp screenlock-disable.sh /home/vagrant/scripts/screenlock-disable.sh
-     rm start-tool.sh
-     rm screenlock-disable.sh
+     sudo rm start-tool.sh
+     sudo rm screenlock-disable.sh
      sudo chmod -R a+rwx "/home/vagrant/scripts/"     
       
      sudo mkdir "/home/vagrant/.config/autostart"
      sudo cp start-tool.desktop /home/vagrant/.config/autostart/start-tool.desktop
      sudo cp screenlock.lock /home/vagrant/.config/autostart/screenlock.lock
-     rm start-tool.desktop
-     rm screenlock.lock
+     sudo rm start-tool.desktop
+     sudo rm screenlock.lock
      sudo chmod -R a+rwx "/home/vagrant/.config/autostart" 
+            
 
-     cp installation.txt /home/vagrant/Desktop/installation.txt
-     cp license.txt /home/vagrant/Desktop/license.txt
-     cp README.txt /home/vagrant/Desktop/README.txt
-     cp YoutubeDemo /home/vagrant/Desktop/YoutubeDemo
-     rm -rf /home/vagrant/Desktop/build-vm
+     sudo cp installation.txt /home/vagrant/Desktop/installation.txt
+     sudo cp license.txt /home/vagrant/Desktop/license.txt
+     sudo cp README.txt /home/vagrant/Desktop/README.txt
+     sudo cp Link-to-Author-Demo.desktop /home/vagrant/Desktop/Link-to-Author-Demo.desktop
+     sudo rm -rf /home/vagrant/Desktop/build-vm
+
+     chown -R vagrant "/home/vagrant/Desktop"
+  
+     chmod -R a+rwx "/home/vagrant/Desktop"
          
   # Install google chrome
     cd /home/vagrant/Downloads
@@ -63,7 +68,8 @@ end
 
    # Remove unwanted icons from Launcher
      cd /usr/share/applications && sudo rm -f libreoffice-writer.desktop libreoffice-calc.desktop libreoffice-impress.desktop ubuntu-software-center.desktop ubuntu-amazon-default.desktop
-  
+     update-desktop-database  
+
    # Reboot the VM
      sudo reboot
 

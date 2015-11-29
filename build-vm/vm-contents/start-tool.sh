@@ -1,5 +1,5 @@
 #!/bin/bash
 cd /home/vagrant/Desktop/conceptcloud/bin
-./conceptcloud
-sleep 10
+rm RUNNING_PID
+./conceptcloud &
 google-chrome "http://localhost:9000"
