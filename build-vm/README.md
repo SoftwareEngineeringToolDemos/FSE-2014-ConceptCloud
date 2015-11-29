@@ -17,7 +17,7 @@ This folder contains the scripts and files for provisioning the VM.
 * Install vagrant
 * Download virtual box from this website https://www.virtualbox.org/wiki/Downloads
 * Install Virtual Box
-* Download the build-vm folder to the local machine
+* Download the build-vm folder to the local machine by cloning the FSE-2014-ConceptCloud repository
 * Open the terminal on local machine
 * Enter into that folder by using the 'cd' command.
 * Execute the following command in the terminal: 
