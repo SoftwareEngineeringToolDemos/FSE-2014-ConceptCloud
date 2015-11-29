@@ -27,15 +27,15 @@ vagrant up
 * The GUI of the machine will be ready to use.
 
 ### Login to the VM 
-Username: vagrant
-Password: vagrant
+* Username: vagrant
+* Password: vagrant
 
 ### Note
 * It may take several minutes for downloading and configuring the VM. Please wait till 'vagrant up' finishes execution before using the GUI of the VM 
 * Login is not required. 
 However, if the VM gets locked while the VM is loading then the following credentials must be used
-username: vagrant
-password: vagrant
+* username: vagrant
+* password: vagrant
 
 ### Author
 The build-vm folder was created by Gauri Naik
