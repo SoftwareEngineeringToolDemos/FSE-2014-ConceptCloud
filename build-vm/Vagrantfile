@@ -15,6 +15,7 @@ end
 # Provision the VM with JDK, binary and other required files  
  config.vm.provision "shell", inline: <<-SHELL
       sudo apt-get -y -q update
+      sudo apt-get install software-properties-common
       sudo add-apt-repository -y ppa:webupd8team/java
       sudo apt-get -y -q update
       echo "oracle-java8-installer shared/accepted-oracle-license-v1-1 select true" | sudo /usr/bin/debconf-set-selections
@@ -69,9 +70,9 @@ end
     dpkg -i google-chrome-stable_current_amd64.deb
 
 # Remove unwanted icons from Launcher
-    cd /usr/share/applications && sudo rm -f libreoffice-writer.desktop libreoffice-calc.desktop libreoffice-impress.desktop ubuntu-software-center.desktop ubuntu-amazon-default.desktop firefox.desktop
-    sudo apt-get purge firefox firefox-globalmenu firefox-gnome-support 
-    update-desktop-database  
+    cd /usr/share/applications && sudo rm -f libreoffice-writer.desktop libreoffice-calc.desktop libreoffice-impress.desktop ubuntu-software-center.desktop ubuntu-amazon-default.desktop firefox.desktop 
+   sudo apt-get -y purge firefox 
+   update-desktop-database  
 
 # Reboot the VM
      sudo reboot
