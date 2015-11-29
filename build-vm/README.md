@@ -4,6 +4,8 @@ This build-vm folder contains the following things:
 * Vagrantfile. 
 This is the script and the configuration file which creates the VM containing the OS which is Ubuntu 14.04 and
 provisions all the pre-requisites required for the ConceptCloud tool.
+* vm-contents
+This folder contains the scripts and files for provisioning the VM.
 
 ### Environment
 * VM: Ubuntu 14.04 64 bit box with guest additions (Same as the previous hand made VM)
@@ -22,9 +24,12 @@ provisions all the pre-requisites required for the ConceptCloud tool.
 ```
 vagrant up
 ```
-* Wait till the execution shell completes. It may some time for the machine to be provisioned.
-* This will create a new Ubuntu 14.04LTS virtual machine with all the pre-requisites provisioned with it.
+* Wait till the execution shell completes. It may take some time for the machine to be provisioned.
+* This will create a new Ubuntu 14.04LTS virtual machine with all the pre-requisites provisioned.
 * The GUI of the machine will be ready to use.
+* The Google Chrome browser will open.
+* If prompted to make it the default browser then click 'Yes'.
+* The tool is ready to use in the browser.
 
 ### Login to the VM 
 * Username: vagrant
