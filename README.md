@@ -1,6 +1,6 @@
 # FSE-2014-ConceptCloud
 
-This repository contains information related to the tool ConceptCloud presented Foundations of Software Engineering, 2014. The tool was originally presented in [this paper](http://dl.acm.org/citation.cfm?id=2661676).
+This repository contains information related to the tool ConceptCloud presented at the Foundations of Software Engineering, 2014. The tool was originally presented in [this paper](http://dl.acm.org/citation.cfm?id=2661676).
 
 This repository _is not_ the original repository for this tool. Here are some links to the original project:
 * [The Official Project Page including the browser executable](http://www.conceptcloud.org)
