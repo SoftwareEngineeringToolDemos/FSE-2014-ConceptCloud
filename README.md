@@ -9,13 +9,13 @@ This repository contains information related to the tool ConceptCloud presented 
 This repository _is not_ the original repository for this tool. Here are some links to the original project:
 * [The Official Project Page including the browser executable](http://www.conceptcloud.org)
 * [Original Download Link](http://www.conceptcloud.org/download)
-* [A Video of the Tool](https://www.youtube.com/watch?v=hLhW5nI_PSo) 
+* [Author's Video of the Tool](https://www.youtube.com/watch?v=hLhW5nI_PSo) 
 * [User guide for the tool](http://www.conceptcloud.org/user_guide)
 
 In this repository, for ConceptCloud you will find:
 * :x: Source code (not available)
 * :white_check_mark: [The original tool](http://www.conceptcloud.org/download) (available)
-* :white_check_mark: [Binary (Available)]()  
+* :white_check_mark: [Binary](available)  
 * :white_check_mark: [Virtual machine containing tool (Available)]()
 
 ### Instructions for running the ConceptCloud tool
