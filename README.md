@@ -1,9 +1,5 @@
 # FSE-2014-ConceptCloud
 
-This is the repository for the tool ConceptCloud which is a tagcloud browser for software archives such as Git and SVN repositories. 
-
-***
-
 This repository contains information related to the tool ConceptCloud presented Foundations of Software Engineering, 2014. The tool was originally presented in [this paper](http://dl.acm.org/citation.cfm?id=2661676).
 
 This repository _is not_ the original repository for this tool. Here are some links to the original project:
