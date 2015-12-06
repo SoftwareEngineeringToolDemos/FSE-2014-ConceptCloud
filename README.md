@@ -12,7 +12,7 @@ This repository _is not_ the original repository for this tool. Here are some li
 In this repository, for ConceptCloud you will find:
 * :x: Source code (not available)
 * :white_check_mark: [Binary of the tool](https://github.com/SoftwareEngineeringToolDemos/FSE-2014-ConceptCloud/tree/master/conceptcloud)(available)  
-* :white_check_mark: [Virtual machine containing tool](https://drive.google.com/open?id=0B_iMDo_Ls2ChYkZ2bWQyS0IzWFU)(available)
+* :white_check_mark: [Virtual machine containing tool](https://drive.google.com/open?id=0B3GbPov8x279aW5Yd2daYS1TT28)(available)
 
 ### Instructions for running the ConceptCloud tool
 
